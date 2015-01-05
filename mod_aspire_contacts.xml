@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="module" method="upgrade" client="site">
+	<name>Simple Contact Us Form</name>
+	<creationDate>2015 january 01</creationDate>
+	<author>Amila Bandara</author>
+	<authorEmail>amila128@gmail.com</authorEmail>
+	<authorUrl>www.amilaishere.com</authorUrl>
+	<copyright>Amila Bandara</copyright>
+	<license>GNU General Public License/</license>
+	<version>1.0.0</version>
+	<description>Simple Contact Us Form By Amila Bandara</description>
+
+	<files>
+		<filename module="mod_aspire_contacts">mod_aspire_contacts.php</filename>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<folder>tmpl</folder>
+	</files>
+	
+	<languages>
+		<language tag="en-GB">language/en-GB.mod_aspire_contacts.ini</language>
+		<language tag="en-GB">language/en-GB.mod_aspire_contacts.sys.ini</language>
+	</languages>
+	
+	<config>
+		<fields name="params">
+		<fieldset name="basic">
+			<field name="from_email" type="email" default="" label="From Email" description="From Email address that you want to show in message" size="60" required="1"/>
+
+			<field name="from_name" type="text"  required="1" default="" label="From Name" description="From Name that you want to show in message" size="60"/>
+
+			<field name="to_email" type="email"  required="1" default="" label="To Email" description="Email Address for receive messages from web form" size="60"/>
+
+			<field name="to_name" type="text"  required="1" default="" label="To Name" description="Display name of message" size="60"/>
+		</fieldset>
+	</fields>
+	</config>
+
+
+</extension>
