@@ -1,4 +1,4 @@
-simple_contact_module
+Simple contact module
 =====================
 
 Simple contact module is a very simple, plug and play contact module for joomla 3x web sites. 
