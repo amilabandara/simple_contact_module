@@ -2,7 +2,7 @@ Simple contact module
 =====================
 
 Simple contact module is a very simple, plug and play contact module for joomla 3x web sites. 
-The intention behind this module is provide very simple contact module for non geeky people.
+The intention behind this module is provide very simple contact module for non coders.
 
 <h2>Requirements</h2>
 <ul>
@@ -14,3 +14,4 @@ The intention behind this module is provide very simple contact module for non g
 So you do not need to install any extra components.</p>
 <p>No front end validation added yet.</p>
 <p>will add option to switch between bootstrap 2 and 3</p>
+<h2 style="color=red">When nameing your module helper never put - (hyphen) or _ (underscores ). There is a bug in joomla ajax interface. Read more from <a href="http://joomlacode.org/gf/project/joomla/tracker/?action=TrackerItemEdit&tracker_item_id=32166">here</a></h2>
